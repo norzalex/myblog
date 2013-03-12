@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
 
-  http_basic_authenticate_with :name => "norza", :password => "123", :except => [:index, :show]
+  http_basic_authenticate_with :name => "norza", :password => "111", :except => [:index, :show]
   # http_basic_authenticate_with :name => "norza", :password => "333", :only => [:index]
 
   def new
